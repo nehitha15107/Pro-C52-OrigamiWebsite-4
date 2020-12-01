@@ -1,0 +1,81 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 15px;
+    font-size: 20px;
+    font-family: Century Gothic;
+    font-weight: 400;
+    color: white;
+}
+body{
+    margin: 0px;
+    background-color:#f7f2f2;
+    
+}
+a{
+    text-decoration: none;
+}
+a:link{
+    color:white;
+}
+a:visited{
+    color:white;
+}
+.bodyimg{
+    position: relative;
+}
+.bodyimg p{
+    color:#f7f2f2;
+    font-size: 55px;
+    font-family: Century Gothic;
+    position: absolute;
+    top:10%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.bodyimg h3{
+    color:#f7f2f2;
+    font-family: Century gothic;
+    font-size: 20px;
+    width: 1100px;
+    position: absolute;
+    top:40%;
+    left:45%;
+    transform: translate(-40%, -40%);
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+    font-family: Century Gothic;
+    
+}
+.grid img{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.origami {
+    
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 25px;
+    width:310px;
+    font-family: Century Gothic;
+    
+}
+.origami:hover{
+
+    transform: scale(1.2);
+}
+
+p{
+    text-align: center;
+    color: black;
+}
+
+h2{
+    text-align: center;
+    color: black;
+}
